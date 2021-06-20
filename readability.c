@@ -66,7 +66,7 @@ int calc_letters(string text)
     int num_letters = 0;
     for (int i = 0, characters = strlen(text); i < characters; i++) // strlen word refers to the argument that was passed
     {
-        if (isalpha(text[i])) // Is Alpha is how we determine whether it is an alphabet or not
+        if (isalpha(text[i])) // isalpha is how we determine whether it is an alphabet or not
         {
             num_letters += 1 ;
         }
